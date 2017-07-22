@@ -129,6 +129,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8937 \
     liboverlay
 
+# Ambient display
+PRODUCT_PACKAGES += \
+    CMDoze
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8937
