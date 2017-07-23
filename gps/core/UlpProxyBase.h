@@ -31,13 +31,11 @@
 
 #include <gps_extended.h>
 
-struct FlpExtLocation_s;
-struct FlpExtBatchOptions;
-
 namespace loc_core {
 
 class LocAdapterBase;
-
+struct FlpExtBatchOptions;
+struct FlpExtLocation;
 class UlpProxyBase {
 public:
     LocPosMode mPosMode;
@@ -94,7 +92,7 @@ public:
         (void)active;
         return false;
     }
-    inline virtual bool reportPositions(const struct FlpExtLocation_s* locations,
+    inline virtual bool reportPositions(const FlpExtLocation* locations,
                                         int32_t number_of_locations) {
         (void)locations;
         (void)number_of_locations;
