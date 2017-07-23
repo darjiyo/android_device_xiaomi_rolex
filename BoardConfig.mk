@@ -153,6 +153,9 @@ TARGET_NO_RPC := true
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 TARGET_INIT_VENDOR_LIB := libinit_rolex
 
+# Tap2Wake
+TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
