@@ -87,12 +87,15 @@ on boot
     chown system system /sys/class/leds/green/blink
     chown system system /sys/class/leds/blue/brightness
     chown system system /sys/class/leds/blue/blink
-    chown system system /sys/class/leds/infrared/brightness
     chown system system /sys/class/leds/red/device/grpfreq
     chown system system /sys/class/leds/red/device/grppwm
     chown system system /sys/class/leds/red/device/blink
-    chown system system /sys/class/leds/infrared/transmit
 
+    # IR blaster
+    chown root system /sys/class/leds/infrared/transmit
+    chown root system /sys/class/leds/infrared/brightness
+
+    # Double Tap Wake
     chmod 0660 /proc/gesture/onoff
     chown system system /proc/gesture/onoff
 
