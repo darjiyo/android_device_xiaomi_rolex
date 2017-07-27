@@ -327,10 +327,6 @@ vendor/lib64/libdpmframework.so
 vendor/lib64/libdpmnsrm.so
 vendor/lib64/libdpmtcm.so
 
-# Consumerir
-lib64/hw/consumerir.msm8937.so
-lib/hw/consumerir.msm8937.so
-
 # DRM
 bin/qseecomd
 vendor/bin/qseeproxydaemon
