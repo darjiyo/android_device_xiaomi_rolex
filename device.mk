@@ -129,9 +129,9 @@ PRODUCT_PACKAGES += \
     memtrack.msm8937 \
     liboverlay
 
-# Ambient display
+# Doze mode
 PRODUCT_PACKAGES += \
-    CMDoze
+    XiaomiDoze
 
 # Consumerir
 PRODUCT_PACKAGES += \
