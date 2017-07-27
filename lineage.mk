@@ -22,6 +22,7 @@ BOARD_VENDOR := Xiaomi
 TARGET_VENDOR := Xiaomi
 PRODUCT_DEVICE := rolex
 TARGET_DEVICE := rolex
+TARGET_UNOFFICIAL_BUILD_ID := CarlosArriaga
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Xiaomi/rolex/rolex:6.0.1/MMB29M/V8.5.1.0.MCCMIED:user/release-keys \
