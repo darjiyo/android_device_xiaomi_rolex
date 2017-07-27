@@ -67,8 +67,12 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --k
 BOARD_USES_QCOM_HARDWARE := true
 BOARD_HAVE_QCOM_FM := trues
 
+# Charger
+BOARD_CHARGER_ENABLE_SUSPEND := true
+
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # Powerhal
 TARGET_POWERHAL_VARIANT := qcom
