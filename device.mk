@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     org.apache.http.legacy
 
+# Audio
 PRODUCT_PACKAGES += \
     audiod \
     audio.a2dp.default \
