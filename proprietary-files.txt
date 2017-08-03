@@ -752,6 +752,7 @@ vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
+vendor/lib/lib-imsvt.so
 
 # Sensors
 bin/sensors.qcom
