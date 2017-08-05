@@ -82,6 +82,9 @@ audio.parser.ip.buffer.size=262144
 persist.camera.is_type=1
 persist.camera.gyro.android=1
 media.camera.ts.monotonic=0
+ro.def.camera.video.quality=100
+#aumenta el brillo, por defecto muy oscuro
+ro.def.camera.bright.main=middle
 
 #
 # system props for the data modules
