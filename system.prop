@@ -70,10 +70,6 @@ audio.parser.ip.buffer.size=262144
 #
 persist.camera.is_type=1
 persist.camera.gyro.android=1
-media.camera.ts.monotonic=0
-ro.def.camera.video.quality=100
-#aumenta el brillo, por defecto muy oscuro
-ro.def.camera.bright.main=middle
 
 #
 # system props for the data modules
@@ -219,6 +215,9 @@ camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 camera.display.umax=1920x1080
 camera.display.lmax=1280x720
 persist.sys.chgdisabled=0
+media.camera.ts.monotonic=0
+ro.def.camera.video.quality=100
+ro.def.camera.bright.main=middle
 
 ro.product.wt.boardid=S88537AA1
 ro.ct.device.model=XMP-2016111
@@ -247,7 +246,3 @@ persist.data.iwlan.enable=false
 
 af.fast_track_multiplier=2
 audio_hal.period_size=192
-
-import /system/vendor/vendor.prop
-import /system/vendor/default.prop
-import /system/vendor/power.prop
