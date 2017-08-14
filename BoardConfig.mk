@@ -69,6 +69,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # Powerhal
 TARGET_POWERHAL_VARIANT := qcom
@@ -239,6 +240,9 @@ WIFI_DRIVER_MODULE_NAME := "wlan"
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+# Sensor
+USE_SENSOR_MULTI_HAL := true
 
 # OTA
 BLOCK_BASED_OTA := true
